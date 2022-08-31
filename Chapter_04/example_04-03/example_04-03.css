@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #353535;
+}
+.center-me {
+  background-color: #4b0082;
+  color: #ebebeb;
+  font-size: 2rem;
+  text-transform: uppercase;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-wrap {
+  background-color: #4b0082;
+  font-size: 1rem;
+  min-height: 2.75rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+.list-item,
+.last-item {
+  color: #ebebeb;
+  text-decoration: none;
+}
+.list-item {
+  margin-right: 1rem;
+}
+.last-item {
+  margin-left: auto;
+}
