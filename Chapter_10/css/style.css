@@ -1,0 +1,9 @@
+section {
+  width: 90%;
+  margin: 30px auto;
+}
+
+input:placeholder-shown {
+  background-color: #a9a0f5;
+  caret-color: #fb9;
+}
