@@ -9,32 +9,29 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <section>
-      <fieldset>
-        <legend>About the offending film (part 1 of 3)</legend>
-        <div>
-          <label for="film"> The film in question? </label>
-          <input
-            id="film"
-            name="film"
-            type="text"
-            placeholder="e.g. King Kong"
-            required
-            aria-required="true"
-          />
-        </div>
-        <div>
-          <label for="phone">Telephone</label>
-          <input
-            id="tel"
-            name="tel"
-            type="tel"
-            placeholder="1-234-546798"
-            autocomplete="off"
-            required
-          />
-        </div>
-      </fieldset>
-    </section>
+    <div>
+      <label for="award-won">choose award</label>
+      <input  list="award" name="award" type="text"  />
+      <datalist id="award">
+        <select name="" id="">
+          <option value="Best Picture"></option>
+          <option value="Best Director"></option>
+          <option value="Best Adapted Screenplay"></option>
+          <option value="Best Original Screenplay"></option>
+        </select>
+      </datalistS>
+    </div>
+    <div>
+      <label for="browser">Choose your browser from the list:</label>
+      <input list="browsers" name="browser" id="browser" />
+
+      <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+    </div>
   </body>
 </html>
